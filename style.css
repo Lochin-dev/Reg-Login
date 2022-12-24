@@ -5,14 +5,50 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
-
-.container{
-    max-width: 1240px;
-    padding: 0 20px;
+  .container {
+    max-width: 1320px;
     margin: 0 auto;
-}
+    padding: 0 20px;
+ }
+ 
+ @media only screen and (max-width:992px) {
+    .container {
+       max-width: 992px;
+       margin: 0 auto;
+       padding: 0 10px;
+    }
+ }
+ 
+ @media only screen and (max-width:768px) {
+    .container {
+       max-width: 768px;
+       margin: 0 auto;
+       padding: 0 10px;
+    }
+ }
 
-.reg_wrapper{
+
+ 
+ @media only screen and (max-width:576px) {
+    .container {
+       max-width: 576px;
+       margin: 0 auto;
+       padding: 0 10px;
+    }
+ }
+ 
+ @media only screen and (max-width:375px) {
+    .container {
+       max-width: 375px;
+       margin: 0 auto;
+       padding: 0 5px;
+    }
+ }
+
+
+
+
+ .reg_wrapper{
     max-width: 50%;
     background-color: rgba(34, 25, 25, 0.12);
     margin: 50px auto;
@@ -20,6 +56,22 @@
     box-shadow: 2px 2px 7px black;
     border-radius: 9px;
 }
+
+@media only screen and (max-width:850px) {
+    .reg_wrapper{
+        max-width: 75%;
+
+    }
+ }
+
+ @media only screen and (max-width:550px) {
+    .reg_wrapper{
+        max-width: 95%;
+
+    }
+ }
+
+
 
 .input{
     width: 100%;
