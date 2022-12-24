@@ -60,14 +60,14 @@
 @media only screen and (max-width:850px) {
     .reg_wrapper{
         max-width: 75%;
-
+       
     }
  }
 
  @media only screen and (max-width:550px) {
     .reg_wrapper{
         max-width: 95%;
-
+        padding: 50px 20px ;
     }
  }
 
