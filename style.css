@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.reg_wrapper{
+    max-width: 50%;
+    background-color: rgba(34, 25, 25, 0.12);
+    margin: 50px auto;
+    padding: 50px 50px 20px 50px ;
+    box-shadow: 2px 2px 7px black;
+    border-radius: 9px;
+}
+
+.input{
+    width: 100%;
+    padding: 10px  20px 10px 30px ;
+    border-radius: 7px;
+    border: 0px ;
+}
+
+
+input::placeholder{
+   position: relative;
+}
+
+.span_icon{
+    position: relative;
+    top: -35px;
+    left: 5px;
+}
+
+.koz{
+    position: absolute;
+  right: 10px;
+  top: 13px;
+}
+ 
+.reg_text{
+    margin-bottom: 0;
+}
+
+.regs_text{
+    text-align: center;
+    padding-top: 20px;
+    }
